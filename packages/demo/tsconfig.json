@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "es6",
+    "target": "es6",
+    "moduleResolution": "node",
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "keyofStringsOnly": true,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "incremental": true,
+    "lib": [
+      "dom",
+      "es2015",
+      "es2015.promise",
+      "es2015.iterable",
+      "esnext.asynciterable"
+    ],
+    "baseUrl": ".",
+    "outDir": "./compiled"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

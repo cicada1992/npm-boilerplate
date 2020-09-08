@@ -1,0 +1,23 @@
+{
+  "name": "npm-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for npm",
+  "main": "index.js",
+  "scripts": {
+    "bs": "lerna bootstrap",
+    "clean": "lerna clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicada1992/npm-boilerplate.git"
+  },
+  "author": "Youngjae Han <han6318@naver.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cicada1992/npm-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cicada1992/npm-boilerplate#readme",
+  "devDependencies": {
+    "lerna": "3.22.1"
+  }
+}
